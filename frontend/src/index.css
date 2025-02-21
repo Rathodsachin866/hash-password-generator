@@ -1,0 +1,141 @@
+/* Root Styles */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Link Styles */
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+/* Body Styles */
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 20px; /* Added padding for better spacing */
+}
+
+/* Header Styles */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #ffffff; /* Ensure header is visible on dark background */
+  text-align: center; /* Center align the header */
+}
+
+/* Button Styles */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: #ffffff; /* Ensure button text is visible */
+  cursor: pointer;
+  transition: border-color 0.25s, background-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+  background-color: #2a2a2a; /* Darker background on hover */
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Input and Textarea Styles */
+input, textarea {
+  width: 100%;
+  padding: 0.6em 1em;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: inherit;
+  transition: border-color 0.25s;
+  background-color: #1a1a1a; /* Dark background for inputs */
+  color: #ffffff; /* White text for inputs */
+}
+
+input:focus, textarea:focus {
+  border-color: #646cff;
+  outline: none;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #333333; /* Darker background for list items */
+  border: 1px solid #444444; /* Slightly lighter border */
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff; /* White text for list items */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5em; /* Smaller header on mobile */
+  }
+
+  button {
+    font-size: 0.9em; /* Smaller button text on mobile */
+  }
+
+  input, textarea {
+    font-size: 0.9em; /* Smaller input text on mobile */
+  }
+}
+
+/* Light Mode Styles */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+    color: #000; /* Black text for light mode */
+  }
+  input, textarea {
+    background-color: #ffffff; /* White background for inputs */
+    color: #000; /* Black text for inputs */
+    border: 1px solid #ccc; /* Light border for inputs */
+  }
+  li {
+    background: #f0f0f0; /* Light background for list items */
+    color: #000; /* Black text for list items */
+  }
+}

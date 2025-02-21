@@ -1,0 +1,98 @@
+/* Container Styles */
+.neon-container {
+    background-color: #000; /* Dark background */
+    color: #fff; /* White text */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  .neon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .neon-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ff7f;
+  }
+  
+  .neon-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .neon-nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .neon-nav a:hover {
+    color: #00ff7f;
+  }
+  
+  /* Action Buttons */
+  .neon-actions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .neon-action {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .neon-signup {
+    background-color: #00ff7f;
+    color: #000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .neon-signup:hover {
+    background-color: #00cc66;
+  }
+  
+  /* Main Section */
+  .neon-main {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .neon-main h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .neon-main p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .neon-get-started {
+    background-color: #00ff7f;
+    color: #000;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .neon-get-started:hover {
+    background-color: #00cc66;
+  }
+  
